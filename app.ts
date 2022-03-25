@@ -53,3 +53,20 @@ function add(n1: number, n2: number): string {
     return "" + n1 + n2;
     }
     myMathFunction = add;
+
+
+// Objects
+
+let person: {
+    firstName: string, lastName: string, age: number
+    } = {
+    firstName : "Samanth", lastName : "Kumar", age : 25
+    }
+
+// Null Undefined and Void
+
+
+let myFavoriteNumber: number = null;
+let myFavoriteString: string = null;
+
+let myFavoritecar;
