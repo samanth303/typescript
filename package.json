@@ -1,0 +1,27 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "practice.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samanth303/typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samanth303/typescript/issues"
+  },
+  "homepage": "https://github.com/samanth303/typescript#readme",
+  "dependencies": {
+    "@babel/preset-typescript": "^7.16.7",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1"
+  }
+}

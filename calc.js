@@ -1,11 +1,13 @@
+"use strict";
 //----------Addition---------//
-// function add (a: number,b:number): number{
-//     const c: number = a+b;
-//     return c;
-// }
-// const r1:number = add(11,31);
-// console.log(r1)
-//------------Multiply--------------//
+Object.defineProperty(exports, "__esModule", { value: true });
+function add(a, b) {
+    var c = a + b;
+    return c;
+}
+var r1 = add(1, 2);
+console.log(r1);
+// //------------Multiply--------------//
 // function multiply (a:number,b:number) {
 //     const c:number = a*b;
 //     return c;
@@ -13,12 +15,12 @@
 // const r2:number = multiply(2,3)
 // console.log(r2)
 // Substraction---------//
-// function sub(a:number,b:number):number{
-//     const c:number = a-b;
-//     return c;
-// }
-// const r3:number = sub(10,5)
-// console.log(r3)
+function sub(a, b) {
+    var c = a - b;
+    return c;
+}
+var r3 = sub(10, 5);
+console.log(r3);
 // Division ------//
 // function division(a:number,b:number):number {
 //     const c:number = a/b
@@ -26,27 +28,28 @@
 // }
 // const r4:number = division(10,4)
 // console.log(r4)
-// Simple Intrest
+// // Simple Intrest
 // function simpleintrest (p:number,r:number,t:number):number {
 //     const si:number = p*r*t/100
 //     return si;
 // }
 // const r5:number = simpleintrest(1000,5,10)
 // console.log(r5)
-// Area of circle
+// // Area of circle
 // function areaofcircle(radius:number):number{
 //     const area:number = radius*radius*3.14
 //     return area;
 // }
-// const output:number = areaofcircle(10)
-// console.log(output)
-// Area of rectangle
+// const circle:number = areaofcircle(10)
+// console.log(circle)
+// // Area of rectangle
 // function areaofrectangle(length:number,breadth:number):number{
 //     const area:number = length*breadth;
 //     return area;
 // }
-// const output:number = areaofrectangle(10,10)
-// console.log(output)
+// const rectangle:number = areaofrectangle(10,10)
+// console.log(rectangle)
+exports.default = sub;
 //---------- Fibbonacci Series------/
 // var i:number;
 // var fib:number[] = [];
@@ -114,21 +117,19 @@
 //     console.log(`Factorial for ${number} is ${fact}`)
 // }
 //------------Calculator-----------//
-var operand = '+';
-var number1 = 10;
-var number2 = 10;
-var result;
-if (operand == '+') {
-    result = number1 + number2;
-}
-else if (operand == '-') {
-    result = number1 - number2;
-}
-else if (operand == '*') {
-    result = number1 * number2;
-}
-else {
-    result = number1 / number2;
-}
-console.log(" " + number1 + " " + operand + " " + number2 + " = " + result);
-//-----
+// const operand:string = '+';
+// const number1:number = 10;
+// const number2:number = 10;
+// let result:number;
+// if(operand == '+'){
+//     result = number1+number2
+// }else if(operand == '-')
+// {
+//     result = number1-number2
+// }else if(operand == '*')
+// {
+//     result = number1*number2
+// }else{
+//     result = number1/number2
+// }
+// console.log(` ${number1} ${operand} ${number2} = ${result}`)

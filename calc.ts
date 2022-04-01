@@ -1,17 +1,17 @@
 //----------Addition---------//
 
 
-// function add (a: number,b:number): number{
-//     const c: number = a+b;
-//     return c;
-// }
-// const r1:number = add(11,31);
+function add (a: number,b:number): number{
+    const c: number = a+b;
+    return c;
+}
+const r1:number = add(1,2);
 
-// console.log(r1)
+console.log(r1)
 
 
-
-//------------Multiply--------------//
+ 
+// //------------Multiply--------------//
 
 
 // function multiply (a:number,b:number) {
@@ -26,20 +26,20 @@
 
 // Substraction---------//
 
-// function sub(a:number,b:number):number{
-//     const c:number = a-b;
-//     return c;
-// }
+function sub(a:number,b:number):number{
+    const c:number = a-b;
+    return c;
+}
 
-// const r3:number = sub(10,5)
-// console.log(r3)
+const r3:number = sub(10,5)
+console.log(r3)
 
 
 
 // Division ------//
 
 // function division(a:number,b:number):number {
-
+    
 //     const c:number = a/b
 
 //     return c;
@@ -51,7 +51,7 @@
 
 
 
-// Simple Intrest
+// // Simple Intrest
 
 
 // function simpleintrest (p:number,r:number,t:number):number {
@@ -65,28 +65,30 @@
 // console.log(r5)
 
 
-// Area of circle
+// // Area of circle
 
 // function areaofcircle(radius:number):number{
 //     const area:number = radius*radius*3.14
 //     return area;
 // }
-// const output:number = areaofcircle(10)
-// console.log(output)
+
+// const circle:number = areaofcircle(10)
+// console.log(circle)
 
 
-// Area of rectangle
+// // Area of rectangle
 
 // function areaofrectangle(length:number,breadth:number):number{
 //     const area:number = length*breadth;
 //     return area;
 // }
-// const output:number = areaofrectangle(10,10)
-// console.log(output)
+
+// const rectangle:number = areaofrectangle(10,10)
+// console.log(rectangle)
 
 
-
-
+export default sub 
+ 
 
 //---------- Fibbonacci Series------/
 
